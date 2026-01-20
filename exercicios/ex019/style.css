@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+
+}
+body{
+    background-image:linear-gradient(to right,#1FBB2F,#30913A);
+}
+ #titulo{
+    color: white;
+    background-color: #283C2A;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px, black;
+    width: 450px;
+ }
+
+ h1{
+    color:#283C2A;
+ }
+
+.basico{
+    color: white;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avançado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgb(150, 150, 39);
+}

@@ -1,0 +1,27 @@
+voltar {
+    text-align: center;
+    width: 30px;      /* diminui a largura */
+    height: 30px;     /* diminui a altura */
+    font-size: 10px;  /* diminui o texto */
+    border-radius: 5px; /* deixa mais arredondado */
+    padding: 2px;     /* ajusta o espaço interno */
+}
+
+
+body{
+  background-color: #000; /* fundo preto */
+            color: aliceblue;       /* texto claro */
+            text-align: center;     /* centraliza o conteúdo */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+}
+ a img {
+            width: 250px;
+            margin-top: 30px;
+            transition: transform 0.3s;
+        }
+
+        a img:hover {
+            transform: scale(1.1); /* efeito ao passar o mouse */
+        }
