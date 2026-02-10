@@ -7,7 +7,7 @@
   background-image: url(imagens/espaco.jpg);
   background-size: cover;
 
-  height: 96vh;
+  height: 100vh;
   position: relative;
 
 }
@@ -18,5 +18,5 @@
     left: 50%;
     height: 50%;
 
-    transform: translate(-50%, 30%);
+    transform: translate(-50%, 40%);
 }
