@@ -10,7 +10,6 @@
 html,body{
     min-height: 100vh;
     background-color: darkgray;
-    font-family:"Playwrite NZ Basic", cursive;
 }
 
 header{
@@ -46,6 +45,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     font-size: 2.5vw;
+    font-family:"Playwrite NZ Basic", cursive;
 }
 
 section>p{
@@ -68,7 +68,7 @@ section.imagem>p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     width: 400px;
-    text-shadow: 2px 2px 0px;
+    text-shadow: 1px 1px 0px;
 }
 
 section#img01{
