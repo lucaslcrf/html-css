@@ -12,21 +12,45 @@
     table{
         border-collapse: collapse;
         width: 500px;
-
-    }
-    thead{
-        background-color: darkgray;
-        color: white;
+        position: relative;
     }
 
-    tfoot{
-        background-color: darkgray;
-        color: white;
-    }
-    td,th{
+     td,th{
         border: 1px solid black;
         padding: 10px;
     }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    thead,tfoot {
+        background-color: black;
+        color: white;
+    }
+
+    thead > tr > th{
+        position: sticky;
+        top: 0;
+        background-color: black;
+    }
+
+    tbody > tr:nth-child(odd){
+        background-color: lightgray;
+    }
+
+    thead > tr > th {
+        background-color: darkgray;
+        color: white;
+        position: sticky;
+        top: -1;
+        background-color:black ;
+    }
+
+ 
 
     .num{
         text-align: right;
@@ -49,10 +73,12 @@
  -->
 
     <table>
+
+        <caption>População da Unidades Federativas</caption>
         <thead>
             <tr>
-                <td>Estado</td>
-                <td>População</td>
+                <th>Estado</th>
+                <th>População</th>
             </tr>
             
         </thead>
@@ -96,7 +122,67 @@
                 <td>Ceará</td>
                 <td class="num">9.132.078</td>
             </tr>
-                        
+                
+                        <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.577.071</td>
+            </tr>
+            
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+
+                        <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.577.071</td>
+            </tr>
+            
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+
+                        <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.577.071</td>
+            </tr>
+            
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+
+                        <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.577.071</td>
+            </tr>
+            
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            
             <tr>
                 <td>Pará</td>
                 <td class="num">8.602.805</td>
@@ -109,5 +195,15 @@
             </tr>
         </tfoot>
     </table>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam eius similique dolore dolorum! Similique commodi fuga dolorum adipisci excepturi. Adipisci est expedita fugiat perferendis labore officia, et quas velit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, excepturi! Quos dolorum est corrupti magni at, expedita iusto. Labore, quis architecto culpa blanditiis obcaecati ab nobis alias necessitatibus cumque mollitia!Loremlo
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta error quia temporibus. Assumenda inventore commodi maxime quo accusantium dolorem. Quasi eaque delectus repudiandae nihil nesciunt sed. Atque ducimus accusantium harum!Lorem
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis nemo soluta possimus suscipit? Deleniti, placeat vero libero, dolore magnam ea fuga hic deserunt doloribus voluptatibus non iure earum praesentium.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate distinctio dolor placeat accusamus, aspernatur sunt, expedita culpa fugiat minima voluptatem. Eos velit nostrum laborum modi fuga exercitationem officia corporis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam eius similique dolore dolorum! Similique commodi fuga dolorum adipisci excepturi. Adipisci est expedita fugiat perferendis labore officia, et quas velit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, excepturi! Quos dolorum est corrupti magni at, expedita iusto. Labore, quis architecto culpa blanditiis obcaecati ab nobis alias necessitatibus cumque mollitia!Loremlo
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta error quia temporibus. Assumenda inventore commodi maxime quo accusantium dolorem. Quasi eaque delectus repudiandae nihil nesciunt sed. Atque ducimus accusantium harum!Lorem
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis nemo soluta possimus suscipit? Deleniti, placeat vero libero, dolore magnam ea fuga hic deserunt doloribus voluptatibus non iure earum praesentium.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate distinctio dolor placeat accusamus, aspernatur sunt, expedita culpa fugiat minima voluptatem. Eos velit nostrum laborum modi fuga exercitationem officia corporis.
+        </p>
 </body>
 </html>
