@@ -11,7 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-
+    background-position: top center;
 }
 
 section#telefone{
@@ -22,7 +22,7 @@ section#telefone{
     left: 50%;
     top: 50%;
 
-    transform: translate(-50%,15%);
+    transform: translate(-50%,-25%);
 
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
@@ -42,6 +42,16 @@ iframe{
     transform: translate(-50%,-49%);
 }
 
+section#redes img{
+    width: 50px;
+    border-radius: 50%;
+    text-align: right;
+    margin: 10px;
+}
+
+section#redes{
+    text-align: right;
+}
 
 
 
