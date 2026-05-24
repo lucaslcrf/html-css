@@ -6,6 +6,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <div id="nome">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="nome" placeholder="Nome completo" required >
+        </div>
+
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date">
+        </div>
+
+        <div id="nota">
+            <label for="media">Media:</label>
+            <input type="number" name="media" id="media" min="0 " max="10" placeholder="0 a 10">
+        </div>
+
+        <div>
+            <label for="mes">Periodo letivo</label>
+            <input type="month" name="mes" id="mes">
+        </div>
+         
+        <div>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+        <div class="botao.form">
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </div>
+    </form>
 </body>
 </html>
