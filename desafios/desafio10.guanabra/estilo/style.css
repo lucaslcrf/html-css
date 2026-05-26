@@ -163,14 +163,14 @@ aside > ul{
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2705';
-    padding: 10px;
+    padding: 15px;
 }
 
 footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    font-size: 0.8em;
+    font:bolder 0.8em;
     padding: 5px;
     margin-top: 10px;
 }
