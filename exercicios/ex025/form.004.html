@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Telefone e email</h1>
+        <form action="cadastro.php" method="post"></form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="Nome">Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone: </label>
+                        <input type="tel" name="telefone" id="telfone" pattern="^[0-9] {4}-[0-9]{4}$"required>
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="reset" value="LIMPAR">
+                    <input type="submit" value="ENVIAR">
+                </div>
+        
+    </fildset>
+    </form>
+</body>
+</html>
