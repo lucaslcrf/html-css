@@ -5,7 +5,7 @@
 
 .container{
   background-image: url(imagens/espaco.jpg);
-  background-size: cover;
+  background-size:cover ;
 
   height: 100vh;
   position: relative;
