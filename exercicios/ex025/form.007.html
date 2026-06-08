@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Select, datalis e textarea</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            #opções unicas
+            <label for="estado">estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>---ESCOLHA---</option>
+
+                <optgroup label="Região Sudeste">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Nordeste">
+                    <option value="ma">Maranhão</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                </optgroup>
+
+            </select>
+        </div>
+
+        <div>
+            #permite escrever outras opções
+            <label for="iprof">Proffissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="adm">administrador</option>
+                <option value="dev">desenvolvedor</option>
+                <option value="cont">contador</option>
+                <option value="pro">professsor</option>
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
